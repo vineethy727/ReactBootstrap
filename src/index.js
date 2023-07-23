@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
+import Bootstrap from "./components/Bootstrap";
+import Events1 from "./components/Events1";
+import Login from "./components/Login";
+import Register from "./components/Register";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Register />
   </React.StrictMode>
 );
 
